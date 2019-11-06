@@ -29,12 +29,12 @@ html {
   /* ---- variable ---- */
 
   :root{
-      --orange: #F8765E;
+      --orange: #7F00D6;
       --white: #fff;
       --marine: #031D5B;
       --light-blue: #5B6C94;
       --light-grey: #CDCDCD;
-      --blue-very-light: #9BDBE7;
+      --blue-very-light:#14DDC3;
       --main-font-size: 13pt;
     
   }
@@ -159,7 +159,7 @@ html {
   }
   
   .card2{
-      background-color: #9BDBE7;
+      background-color: var(--blue-very-light);
       width: 70%;
       padding: 20%;
       border-radius: 20px;
@@ -262,6 +262,7 @@ img.quote1{
 
 img.inicio{
     width: 90%;
+    padding: 2%;
 }
 
 .articleimg{
