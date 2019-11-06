@@ -24,6 +24,10 @@ html {
       list-style: none;
   }
 
+  ul {
+      padding: 0;
+  }
+
  
 
   /* ---- variable ---- */
@@ -85,11 +89,12 @@ html {
     color: var(--marine);
     font-size: 14pt;
     text-align: left;
+    margin-left: 10%;
   }
 
   h4.card1{
       color: var(--orange);
-      margin-top: -40%;
+      margin-top: -45%;
       margin-left: 20%;
 
 
@@ -112,7 +117,7 @@ html {
   p.article{
     color: var(--light-blue);
       text-align: left;
-      margin: 10% 10% 10% 0%;
+      margin: 10%;
 
   }
 
@@ -165,6 +170,8 @@ html {
       border-radius: 20px;
       filter: drop-shadow(0px 5px 5px rgb(173, 173, 173));
       top: 10%;
+      margin: 0 auto;
+      
 
   }
 
@@ -195,7 +202,7 @@ html {
     width: 50%;
     display: block;
     margin: 0 auto;
-    margin-bottom:30%;
+    margin-bottom:20%;
     background-color: var(--blue-very-light);
     color: #fff;
     border-radius: 20px;
@@ -242,7 +249,7 @@ html {
 
 
 .form3{
-    margin-bottom: 50%;
+    margin-bottom: 20%;
 }
 
 
@@ -256,13 +263,19 @@ html {
 
 img.quote1{
     width:40%;
-    margin: 0% 0% 20% 10%;
+    margin: 0% 0% 20% 20%;
     
+}
+
+img.quote2{
+    width: 40%;
+    margin: 0% 0% 20% 10%;
 }
 
 img.inicio{
     width: 90%;
-    padding: 2%;
+    padding:2%;
+    margin:10%;
 }
 
 .articleimg{
