@@ -32,7 +32,8 @@ html {
       --marine: #031D5B;
       --light-blue: #5B6C94;
       --light-grey: #CDCDCD;
-      --main-font-size: 22pt;
+      --blue-very-light: #9BDBE7;
+      --main-font-size: 13pt;
     
   }
 
@@ -43,8 +44,7 @@ html {
   body {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
-    font-size: bold;
-    line-height: 147%;
+
   }
   
   h1 {
@@ -52,34 +52,30 @@ html {
       font-weight: bold;
       text-transform: uppercase;
       text-align: center;
-      margin: 50px 50px 50px 50px;
+      margin: 10%;
     }
   
   h2 {
       color: var(--white);
       font-weight: bold;
-      font-size: 30pt;
+      font-size: 24pt;
       line-height: 1;
       text-align: center;
-      margin-left: 20px;
-      margin-right: 20px;
+      margin: 8%;
       
   }
 
-  h2.naranja{
+  h2.form{
       color: var(--orange);
-      font-weight: bold;
-      font-size: 20pt;
-      line-height: 22pt;
   }
   
   h3 {
-      color: #031D5B;
+      color: var(--marine);
       font-size: 18pt;
       text-align: center;
   }
 
-  h3.gris{
+  h3.form{
       color: var(--light-grey)
   }
 
@@ -89,50 +85,37 @@ html {
     text-align: left;
   }
 
-  h4.naranja{
+  h4.card1{
       color: var(--orange);
-      margin-top: -60px;
-      margin-left: 40px;
+      margin-top: -20%;
+
 
   }
   
   p {
-    margin: 0;
-  }
-
-  p.blanco{
       color: var(--white);
+      font-size: var(--main-font-size);
       text-align: center;
-      margin-left: 20px;
-      margin-right: 20px;
-      line-height: 22pt;
+      margin: 10%;
+      line-height: 25px;
 
   }
 
-  .footer{
-    color: var(--white);
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 22pt;
-    padding: 40px;
+  p.intro{
+      text-align: center;
 
   }
 
-  p.azul{
-      color: var(--light-blue);
-      text-align: left;
-      margin: 20px 30px 70px 0px;
-      line-height: 22pt;
-
-  }
-
-  p.azulcentrado{
+  p.article{
     color: var(--light-blue);
+      text-align: left;
+      margin: 10% 10% 10% 0%;
+
+  }
+
+  p.article.premium{
       text-align: center;
-      margin-left: 20px;
-      margin-right: 20px;
-      line-height: 22pt;
+      margin:10%;
 
   }
   
@@ -184,34 +167,30 @@ html {
   /* ---- components ---- */
   
   .button {
-    width: 168px;
-    height: 60px;
+    width: 50%;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-block-end: 70px;
-    background-color: #9BDBE7;
+    margin-bottom:20%;
+    background-color: var(--blue-very-light);
     color: #fff;
     border-radius: 20px;
     text-align: center;
+    padding: 5%;
     font-size: 14pt;
     font-weight: bold;
   }
   
-  .button-alt {
-    color: blue;
-    background-color: #fff;
-  }
 
   .input{
-      width: 335px;
-      height: 60px;
+      width:90%;
       display:block;
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 10%;
+      margin-bottom: 10%;
       background-color: var(--white);
       border-radius: 20px;
       text-align: left;
+      padding: 5%;
       font-size: 14pt;
 
   }
@@ -231,7 +210,7 @@ html {
 .fondoblancoplano{
     background-color: var(--white);
     margin-top: px;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
 }
   img{
     display:block;
